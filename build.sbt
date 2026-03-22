@@ -1,5 +1,5 @@
 name := "scalaxiangqi"
-organization := "io.github.katoue"
+organization := "com.github.katoue"
 version := "0.1.0"
 
 scalaVersion := "3.4.2"
@@ -16,5 +16,5 @@ scalacOptions ++= Seq(
 
 testFrameworks += new TestFramework("munit.Framework")
 
-// publishing
 publishMavenStyle := true
+publishTo := Some(Resolver.defaultNonRootMavenResolver)
