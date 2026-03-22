@@ -1,5 +1,7 @@
 # scalaxiangqi
 
+[![](https://jitpack.io/v/katoue/scalaxiangqi.svg)](https://jitpack.io/#katoue/scalaxiangqi)
+
 A Scala 3 library implementing Chinese Chess (Xiangqi) game logic.
 
 ## Features
